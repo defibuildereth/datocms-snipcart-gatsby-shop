@@ -31,6 +31,7 @@ export default () => (
     `}
 render={data => (
   <Layout site={data.site}>
+  <h1>Out here</h1>
     <div className="Catalogue">
       {
         data.products.edges.map(({ node: product }) => (
